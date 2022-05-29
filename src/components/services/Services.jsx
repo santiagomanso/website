@@ -24,7 +24,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
+              <p>Backend - API Rest's MERN stack</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
               <p>API consumption</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Global states</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -33,10 +41,6 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon' />
               <p>Interactive / Intuitive user interfaces</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Backend - API Rests MERN stack</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
