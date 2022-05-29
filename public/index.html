@@ -8,5 +8,13 @@
 </head>
 <body>
     <div id="root"></div>
+    <script>
+        //this script is meant to put the app on fullscreen on some mobile devices but not on the main computer on the warehouse
+        if (screen.width <= 480) {
+          window.addEventListener("click", (function(event) {
+          document.documentElement.requestFullscreen().catch((e) => {console.log(e)})
+        }));
+        }
+      </script>
 </body>
 </html>
