@@ -1,6 +1,8 @@
 import React from 'react'
 import './services.css'
 import { BiCheck } from 'react-icons/bi'
+import { AiOutlineAppstore } from 'react-icons/ai'
+import { MdOutlineContactPage } from 'react-icons/md'
 
 const Services = () => {
   return (
@@ -11,33 +13,34 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
+            <AiOutlineAppstore className='service__head-icon' />
             <h3>Web Applications Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Responsive Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>API consumption</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Single Page Application</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Interactive / Intuitive user interfaces</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Backend - API Rests MERN stack</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>User authtentication</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -48,74 +51,22 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
+            <MdOutlineContactPage className='service__head-icon' />
             <h3>Landing Pages</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Contact Forms</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Validation</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className='service'>
-          <div className='service__head'>
-            <h3>UI/UX Design</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur</p>
+              <p>Responsive Design</p>
             </li>
           </ul>
         </article>

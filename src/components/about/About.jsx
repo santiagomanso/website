@@ -40,10 +40,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias et
-            sapiente aliquid ipsum aliquam, molestias earum animi laboriosam
-            esse itaque maiores pariatur sequi possimus illo dignissimos,
-            dolorum eius omnis neque.
+            Berlin based frontend developer, enthusiastic about responsive and
+            fun interfaces
           </p>
 
           <a href='#contact' className='btn btn-primary'>
